@@ -1,0 +1,68 @@
+/*COLORS ARE NOT FINALIZED */
+.root{
+	-fx-background-color: #75a3a3;
+}
+#title{
+	-fx-background-color: white;
+	-fx-background-radius: 10px;
+	-fx-padding-top: 10px;
+	
+	-fx-font: 36px OpenSans;
+	-fx-alignment: center;
+}
+
+#name{
+	-fx-font: 14px OpenSans;
+	-fx-text-fill: lightgrey;
+}
+.button{
+	-fx-background-color: white;
+	-fx-background-radius: 5px;
+	-fx-font: 18px OpenSans;
+	-fx-alignment: center;
+	-fx-effect: dropshadow(gaussian, rgba(158, 158, 158, 0.3), 10, 0.5, 0.0, 0.0);
+    -fx-border-width: 1;
+    -fx-background-insets: 0;
+}
+/*not done with #search:pressed (doesn't work...*yet*) */
+
+#search:hover{
+	-fx-background-color: lightgray; 
+}
+
+#search:pressed{
+	-fx-background-color: lightgreen; 
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+}
+
+#exit:hover{
+	-fx-background-color: lightgray;
+}
+
+#exit:pressed{
+	-fx-background-color: lightpink;
+	-fx-text-fill: black;
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+}
+
+#input, #output{
+	-fx-background-color: white; 
+	-fx-background-radius: 10px;
+}
+
+#lbl_input, #lbl_output{
+	-fx-font: 20px OpenSans;
+	-fx-alignment: center;
+}
+
+#lbl_options{
+	fx-font: 14px OpenSans;
+}
+
+#lbl_output{
+	
+}
+
+.vbox{
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+}
